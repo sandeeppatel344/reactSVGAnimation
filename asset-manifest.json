@@ -1,16 +1,13 @@
 {
-  "main.css": "/reactSVGAnimation/static/css/main.634d378a.chunk.css",
-  "main.js": "/reactSVGAnimation/static/js/main.30306bff.chunk.js",
-  "main.js.map": "/reactSVGAnimation/static/js/main.30306bff.chunk.js.map",
-  "static/css/1.32a5540c.chunk.css": "/reactSVGAnimation/static/css/1.32a5540c.chunk.css",
-  "static/js/1.24bee1d0.chunk.js": "/reactSVGAnimation/static/js/1.24bee1d0.chunk.js",
-  "static/js/1.24bee1d0.chunk.js.map": "/reactSVGAnimation/static/js/1.24bee1d0.chunk.js.map",
+  "main.css": "/reactSVGAnimation/static/css/main.ecb17b69.chunk.css",
+  "main.js": "/reactSVGAnimation/static/js/main.eaca0257.chunk.js",
+  "main.js.map": "/reactSVGAnimation/static/js/main.eaca0257.chunk.js.map",
+  "static/js/1.405937ee.chunk.js": "/reactSVGAnimation/static/js/1.405937ee.chunk.js",
+  "static/js/1.405937ee.chunk.js.map": "/reactSVGAnimation/static/js/1.405937ee.chunk.js.map",
   "runtime~main.js": "/reactSVGAnimation/static/js/runtime~main.59417a35.js",
   "runtime~main.js.map": "/reactSVGAnimation/static/js/runtime~main.59417a35.js.map",
-  "static/media/font-awesome.min.css": "/reactSVGAnimation/static/media/fontawesome-webfont.b06871f2.ttf",
-  "static/css/main.634d378a.chunk.css.map": "/reactSVGAnimation/static/css/main.634d378a.chunk.css.map",
-  "static/css/1.32a5540c.chunk.css.map": "/reactSVGAnimation/static/css/1.32a5540c.chunk.css.map",
+  "static/css/main.ecb17b69.chunk.css.map": "/reactSVGAnimation/static/css/main.ecb17b69.chunk.css.map",
   "index.html": "/reactSVGAnimation/index.html",
-  "precache-manifest.640e4a3e7445b48e30de48217ed61eb7.js": "/reactSVGAnimation/precache-manifest.640e4a3e7445b48e30de48217ed61eb7.js",
+  "precache-manifest.05934447b1e5c06292a8ed51fcd8b644.js": "/reactSVGAnimation/precache-manifest.05934447b1e5c06292a8ed51fcd8b644.js",
   "service-worker.js": "/reactSVGAnimation/service-worker.js"
 }
