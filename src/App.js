@@ -1,154 +1,193 @@
 import React, { Component } from 'react';
-import './App.css';
+import { ReactSVGPanZoom, TOOL_NONE, fitSelection, zoomOnViewerCenter, fitToViewer } from 'react-svg-pan-zoom';
 import SvgComponent from './components/SvgComponent';
-import * as d3 from "d3";
-import ObjectSvg from "./components/ObjectSvg/ObjectSvg"
+import attachEventListeners from './attachListner';
 
-
-// Set start mouse position for drag animation
-let startMousePosition = null;
 
 class App extends Component {
+	constructor(props, context) {
+		super(props, context);
+		this.state = {
+			value: null,
+			tool: TOOL_NONE,
+			status: '',
+			zoomVal:0,
+			selectedCurrentElement:null,
+			elementConfig:[{
+				id:"infw_phase3-phase4_recycledWaterESR1_ReadingGroup",
+				zoomLevel:2,
+				eventName:'dblclick',
+				type:'readingGroup'
+			},
+			{
+				id:"infw_phase1-phase2_recycledWaterESR1_ReadingGroup",
+				zoomLevel:3,
+				eventName:'dblclick',
+				type:'readingGroup'
+			},{
+				id:"infw_phase3-phase4_recycledWaterESR1",
+				zoomLevel:2,
+				eventName:'dblclick',
+				type:'Device'
+			},
+			{
+				id:"infw_phase1-phase2_recycledWaterESR1",
+				zoomLevel:3,
+				eventName:'dblclick',
+				type:'Device'
+			},
+			{
+				id:"infw_aerator1",
+				zoomLevel:4,
+				eventName:'dblclick',
+				type:'readingGroup'
+			},
+			{
+				id:"infw_phase1_clarifier1_ReadingGroup",
+				zoomLevel:4,
+				eventName:'dblclick',
+				type:'readingGroup'
+			},
+			{
+				id:"infw_phase1_clarifier2_ReadingGroup",
+				zoomLevel:4,
+				eventName:'dblclick',
+				type:'readingGroup'
+			},
+			{
+				id:"infw_phase2_clarifier1_ReadingGroup",
+				zoomLevel:2,
+				eventName:'dblclick',
+				type:'readingGroup'
+			},
+			{
+				id:"infw_phase2_clarifier2_ReadingGroup",
+				zoomLevel:3,
+				eventName:'dblclick',
+				type:'readingGroup'
+			},
+			{
+				id:"infw_phase3_clarifier1_ReadingGroup",
+				zoomLevel:2,
+				eventName:'dblclick',
+				type:'readingGroup'
+			},
+			{
+				id:"infw_phase4_clarifier1_ReadingGroup",
+				zoomLevel:3,
+				eventName:'dblclick',
+				type:'readingGroup'
+			}]
 
+			//infw_phase2_clarifier2_ReadingGroup
+		};
+	}
 
-  componentDidMount() {
-    document.getElementById("ladder").remove()
-    // Get height and width of layer to be displayed in window
-    var width = document.getElementById("Layer_8").getBoundingClientRect().width;
+	componentDidMount() {
+		// document.domain = 'http://localhost:7008'
+		//	this.Viewer.fitToViewer(0,20);
+		var a = document.getElementById('getSVG');
+		a.addEventListener(
+			'load',
+			(e) => {
+				var svgDoc = e.target.getSVGDocument();
 
-    var height = document.getElementById("Layer_7").getBoundingClientRect().height;
+				let SVGFile = svgDoc.getElementById('Layer_1');
+				
+				var gg = document.getElementById('addSvg');
+				gg.appendChild(SVGFile);
+				document.getElementById('removeElement').remove()//style.display = "none";
+				this.setState({ status: 'ok' });
+			},
+			false
+		);
+		setTimeout(() => {
+			//var svgElement = document.getElementsByTagName('svg')
+			//svgElement.setAttribute('viewBox',"0 0 4000 4460");
+			var idList = []
+		for (var k=0; k < this.state.elementConfig.length;k++) {
+			if(this.state.elementConfig[k].type=="Device"){
+				idList.push({ id: this.state.elementConfig[k].id, eventName: this.state.elementConfig[k].eventName });
+			}
+			
+		}
 
-    // Set height and width of layer to "App" div
-    var contianer = document.getElementById("App")
-    contianer.style.height = height + "px";
-    contianer.style.width = width + "px";
+		attachEventListeners(idList, this.listner);
+		}, 11000);
+		//this.Viewer.setPointOnViewerCenter(50,300,1)
+		
+	}
 
+checkToolPan=(tool)=>{
+	if(this.state.tool=="tools pan"){
+		this.setState({value:null})
+	}
+}
+	listner=(e)=>{
+		console.log("Click",e)
+		console.log("iddd",e.currentTarget.id)
+		this.state.elementConfig.forEach((ids)=>{
+			if(e.currentTarget.id == ids.id){
+					this.setState({selectedCurrentElement:ids})
+			}
+		})
+		
+	}
+	elementHandler=(value)=>{
+		this.setState({zoomVal:value})
+		console.log("val=="+value.a)
+		if(this.state.selectedCurrentElement&&(value.a > this.state.selectedCurrentElement.zoomLevel)){
+			alert("zoom limit exeded")
 
+		}
+		
+	}
 
-    //Keyboard scroll
-    document.addEventListener('keydown', (event) =>{
-      //left
-      if(event.keyCode == 37) {
-         // object.x -= 1;
-         this.previousHandler()
-      }
-     
-      //right
-      else if(event.keyCode == 39) {
-         this.nextHandler()
-      }
-     
-    });
+	displayReadingByReactangle=()=>{
 
+	}
 
+	
 
-    // Zoom 
-    var zoom = d3.zoom()
-      .scaleExtent([0.2, 20])
-      .on("zoom", zoomed);
+	render() {
+		console.log("tools",this.state.tool)
+		return (
+			<div>
+				<ReactSVGPanZoom
+					height={window.innerHeight}
+					preventPanOutside={false}
+					width={window.innerWidth-20}
+					style={{ border: '1px solid black' }}
+					ref={(Viewer) => (this.Viewer = Viewer)}
+			/*		 onClick={(event) => console.log('click1', event.currentTarget.id)}
+					 onDoubleClick={(event) => console.log('click1', event.currentTarget.id)}
+					onMouseUp={(event) => console.log('up', event.x, event.y)}
+					onMouseMove={(event) => console.log('move', event.x, event.y)}
+					onMouseDown={(event) => console.log('down', event.x, event.y)} */
+					onZoom={(value) => {
+						console.log(value);
+						this.elementHandler(value)
+					}}
+					value={this.state.value}
+					onChangeValue={(value) => this.setState({ value })}
+					tool={this.state.tool}
+					onChangeTool={(tool) => {this.setState({ tool })
+					
+				}}
+				>
+				 	<svg width={200} height={200} id="mainSVG">
+						<g id="addSvg" />
+						<foreignObject id="removeElement">
+							<object data="-test-New_Digram_7 feb_ef.svgz" id="getSVG" type="image/svg+xml" />
+						</foreignObject>
+          </svg> 
 
-
-    function zoomed() {
-      console.log((d3.event.transform.k));
-
-      if (d3.event.transform.k >= 2) {
-        console.log("removed");
-
-        svg.select("#ladder").attr("opacity",0.5)
-      }
-
-      if (d3.event.transform.k >= 4) {
-        console.log("removed");
-
-        svg.select("#ladder").attr("opacity",0.2)
-      }
-
-      if (d3.event.transform.k >= 8) {
-        console.log("removed");
-
-        document.getElementById("App").style.display="none"
-        document.getElementById("clarifierSvg").style.display="initial"
-
-
-        // document.getElementById("App").appendChild()
-     
-      }
-
-      var toModify = d3.select('#Layer_8').transition().duration(750)
-        .attr("transform", d3.event.transform);
-      // .attr("transform", `translate(${differenceX},${differenceY})scale(2)`);
-    }
-
-    var svg = d3.select("#svg")
-      .call(zoom);
-
-  }
-
-
-  detectHandler = () => {
-
-    // Get layer's x axis
-    var bounding = document.getElementById("Layer_8").getBoundingClientRect();
-
-    console.log(bounding, "bounding");
-    // x axis of layer is negative if it is not present in screen
-    if (bounding.x < 0) {
-      alert("Layer 2")
-    }
-    if (bounding.x > 0) {
-      alert("Layer 1")
-    }
-  }
-
-  nextHandler = () => {
-
-    var contianer = document.getElementById("App")
-    var translate = -100;
-    contianer.style.transform = "translateX(" + translate + "vw";
-  }
-
-  previousHandler = () => {
-    var contianer = document.getElementById("App")
-    var translate = 0;
-    contianer.style.transform = "translateX(" + translate + "vw";
-  }
-
-  dragStart = (e) => {
-    console.log("start");
-    startMousePosition = e.pageX
-  }
-
-
-  dragOver = (e) => {
-    console.log("over");
-    if (e.pageX > startMousePosition) {
-      this.previousHandler()
-    }
-    if (e.pageX < startMousePosition) {
-      this.nextHandler()
-    }
-    startMousePosition = null;
-  }
-
-
-
-  render() {
-    return (
-      <div style={{ overflow: "hidden", display: "flex", flexDirection: "column" }} id="main">
-        {/* <button onClick={this.nextHandler}>next</button>
-        <button onClick={this.previousHandler}>previous</button>
-        <button onClick={this.detectHandler}>Id detect</button> */}
-
-        <div onDoubleClick={this.zoomHandler} id="App" className="App" draggable={true} onDrag={this.dragHandler} onDragEnd={this.dragOver} onDragStart={this.dragStart} style={{ height: "100%", width: "100%" }} >
-          <SvgComponent id="svg" />
-        </div>
-
-        <div onDoubleClick={this.zoomHandler} id="clarifierSvg" className="App" draggable={true} onDrag={this.dragHandler} onDragEnd={this.dragOver} onDragStart={this.dragStart} style={{ height: "50%", width: "50%",display:"none" }} >
-          <ObjectSvg path="./clarifier.svg"/>
-        </div>
-      </div>
-    );
-  }
+				</ReactSVGPanZoom>
+{/*           <object data="-test-New_Digram_7 feb_ef.svgz" id="getSVG" type="image/svg+xml" />
+ */}   
+			</div>
+		);
+	}
 }
 
 export default App;
