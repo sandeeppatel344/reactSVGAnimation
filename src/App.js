@@ -178,7 +178,7 @@ checkToolPan=(tool)=>{
 				 	<svg width={200} height={200} id="mainSVG">
 						<g id="addSvg" />
 						<foreignObject id="removeElement">
-							<object data="-test-New_Digram_7 feb_ef.svgz" id="getSVG" type="image/svg+xml" />
+							<object data="-test-New_Digram_7feb_ef.svgz" id="getSVG" type="image/svg+xml" />
 						</foreignObject>
           </svg> 
 
