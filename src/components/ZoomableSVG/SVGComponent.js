@@ -30,7 +30,7 @@ export default class SVGComponent extends Component {
 				},
 				{
 					id: 'infw_phase3-phase4_recycledWaterESR1',
-					zoomLevel: 2.3,
+					zoomLevel: 3.3,
 					eventName: 'click',
 					type: 'Device'
 				},
@@ -185,13 +185,33 @@ export default class SVGComponent extends Component {
 			console.log('iddd', e.currentTarget.id);
 			this.state.elementConfig.forEach((ids) => {
 				if (e.currentTarget.id == ids.id) {
-					if (this.state.value.a <= ids.zoomLevel) {
-						this.Viewer.zoom(e.clientX - 50, e.clientY - 20, ids.zoomLevel);
-					} else {
-						this.props.history.push('/deviceDetails', {
-							deviceElementId: e.currentTarget.id
-						});
+					if(this.state.selectedCurrentElement&&this.state.selectedCurrentElement.id==e.currentTarget.id){
+							//ids.isVisible = false
+							this.props.history.push('/deviceDetails', {
+								deviceElementId: e.currentTarget.id
+							});
+					}else if(!ids.isVisible){
+						ids.isVisible=true
+						if (this.state.value.a <= ids.zoomLevel ) {
+					
+							this.Viewer.zoom(e.clientX - 50, e.clientY - 20, ids.zoomLevel);
+							
+						} 
+						document.getElementById(ids.id+'_ReadingGroup').classList.add('display')
+						
 					}
+				/* 	if (this.state.value.a <= ids.zoomLevel ) {
+					
+					
+					} else {
+						if(ids.isVisible){
+							//ids.isVisible = false
+							this.props.history.push('/deviceDetails', {
+								deviceElementId: e.currentTarget.id
+							});
+						}
+						
+					} */
 					this.setState({ selectedCurrentElement: ids });
 				}
 			});
@@ -246,12 +266,7 @@ export default class SVGComponent extends Component {
 						scaleFactorMax={10}
 						disableDoubleClickZoomWithToolAuto={false}
 						style={{ border: '1px solid black' }}
-						ref={(Viewer) => (this.Viewer = Viewer)}
-						/*		 onClick={(event) => console.log('click1', event.currentTarget.id)}
-					 onDoubleClick={(event) => console.log('click1', event.currentTarget.id)}
-					onMouseUp={(event) => console.log('up', event.x, event.y)}
-					onMouseMove={(event) => console.log('move', event.x, event.y)}
-					onMouseDown={(event) => console.log('down', event.x, event.y)} */
+						ref={(Viewer) => (this.Viewer = Viewer)}	
 				
 						onZoom={(value) => {
 							console.log(value);
