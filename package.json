@@ -12,10 +12,11 @@
     "gh-pages": "^2.0.1",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
+    "react-loader-spinner": "^2.3.0",
     "react-router": "^4.3.1",
     "react-router-dom": "^4.3.1",
     "react-scripts": "2.1.2",
-    "react-svg-pan-zoom": "^2.18.0",
+    "react-svg-pan-zoom": "https://github.com/sandeeppatel344/react-svg-pan-zoom.git",
     "react-virtualized": "^9.21.0",
     "snapsvg-cjs": "0.0.6",
     "svg-pan-zoom": "^3.6.0"

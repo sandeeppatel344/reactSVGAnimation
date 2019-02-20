@@ -25,7 +25,7 @@ export default class SVGComponent extends Component {
 				{
 					id: 'infw_phase1-phase2_recycledWaterESR1_ReadingGroup',
 					zoomLevel: 3,
-					eventName: 'dblclick',
+					eventName: 'click',
 					type: 'readingGroup'
 				},
 				{
@@ -36,50 +36,50 @@ export default class SVGComponent extends Component {
 				},
 				{
 					id: 'infw_phase1-phase2_recycledWaterESR1',
-					zoomLevel: 6.3,
+					zoomLevel: 2.3,
 					eventName: 'click',
 					type: 'Device'
 				},
 				{
 					id: 'infw_aerator1',
 					zoomLevel: 4,
-					eventName: 'dblclick',
+					eventName: 'click',
 					type: 'readingGroup'
 				},
 				{
 					id: 'infw_phase1_clarifier1_ReadingGroup',
 					zoomLevel: 4,
-					eventName: 'dblclick',
+					eventName: 'click',
 					type: 'readingGroup'
 				},
 				{
 					id: 'infw_phase1_clarifier2_ReadingGroup',
 					zoomLevel: 4,
-					eventName: 'dblclick',
+					eventName: 'click',
 					type: 'readingGroup'
 				},
 				{
 					id: 'infw_phase2_clarifier1_ReadingGroup',
 					zoomLevel: 2,
-					eventName: 'dblclick',
+					eventName: 'click',
 					type: 'readingGroup'
 				},
 				{
 					id: 'infw_phase2_clarifier2_ReadingGroup',
 					zoomLevel: 3,
-					eventName: 'dblclick',
+					eventName: 'click',
 					type: 'readingGroup'
 				},
 				{
 					id: 'infw_phase3_clarifier1_ReadingGroup',
 					zoomLevel: 2,
-					eventName: 'dblclick',
+					eventName: 'click',
 					type: 'readingGroup'
 				},
 				{
 					id: 'infw_phase4_clarifier1_ReadingGroup',
 					zoomLevel: 3,
-					eventName: 'dblclick',
+					eventName: 'click',
 					type: 'readingGroup'
 				}
 			]
@@ -102,10 +102,11 @@ export default class SVGComponent extends Component {
 				var gg = document.getElementById('addSvg');
 				gg.appendChild(SVGFile);
 				document.getElementById('removeElement').remove(); //style.display = "none";
-				this.setState({ status: 'ok' });
+			//	this.setState({ status: 'ok' });
 			},
 			false
 		);
+		a.ondblclick = function() { return false; }
 		setTimeout(() => {
 			//var svgElement = document.getElementsByTagName('svg')
 			//svgElement.setAttribute('viewBox',"0 0 4000 4460");
@@ -118,7 +119,9 @@ export default class SVGComponent extends Component {
 					});
 				} else {
 					console.log(this.state.elementConfig[k]);
-					document.getElementById(this.state.elementConfig[k].id).classList.add('testHideShow');
+					if (document.getElementById(this.state.elementConfig[k].id)) {
+						document.getElementById(this.state.elementConfig[k].id).classList.add('testHideShow');
+					}
 				}
 			}
 
@@ -138,15 +141,44 @@ export default class SVGComponent extends Component {
 		window.addEventListener('zoomByRectangle', this.zoomByReactangleListner);
 	}
 
+	componentWillUpdate(nextProps,nextState){
+		
+			/* (value) => this.setState((prevState,props)=>({
+				previousZoomVal:prevState,value:props
+			})) */
+
+			console.log("nextState"+JSON.stringify(nextState))
+	setTimeout(()=>{
+		this.state.elementConfig.forEach((element)=>{
+			if(nextState.value.a<element.zoomLevel&&element.type=="Device"){
+				console.log("Inside Loop...")
+				if(document.getElementById(element.id+'_ReadingGroup')){
+					document.getElementById(element.id+'_ReadingGroup').classList.remove('display')
+
+					document.getElementById(element.id+'_ReadingGroup').classList.add('testHideShow')
+				}
+			}
+		})
+	},500)
+			
+		
+	}
+
 	checkToolPan = (tool) => {
 		if (this.state.tool == 'pan') {
-			this.setState({ value: null });
+			//this.setState({ value: null });
 		}
 	};
 
 	zoomByReactangleListner = (e) => {
-		
-			};
+		setTimeout(() => {
+			this.state.elementConfig.forEach((eleId) => {
+				if (eleId.zoomLevel < this.state.value.a && eleId.type == 'Device') {
+					document.getElementById(eleId.id + '_ReadingGroup').classList.add('display');
+				}
+			});
+		}, 1000);
+	};
 	listner = (e) => {
 		if (this.state.tool == 'zoom-in') {
 			console.log('Click', e);
@@ -165,6 +197,7 @@ export default class SVGComponent extends Component {
 			});
 		}
 	};
+
 	elementHandler = (value) => {
 		//this.Viewer.setPointOnViewerCenter()
 		//this.setState({zoomVal:value})
@@ -172,15 +205,17 @@ export default class SVGComponent extends Component {
 		var timeOut = setTimeout(() => {
 			if (this.state.selectedCurrentElement && value.a <= this.state.selectedCurrentElement.zoomLevel) {
 				console.log('insideee>>>');
-				document
-					.getElementById(this.state.selectedCurrentElement.id + '_ReadingGroup')
-					.classList.remove('testHideShow');
-				document
-					.getElementById(this.state.selectedCurrentElement.id + '_ReadingGroup')
-					.classList.add('display');
-				console.log(value);
+				clearTimeout(timeOut);
+				if (document.getElementById(this.state.selectedCurrentElement.id + '_ReadingGroup')) {
+					document
+						.getElementById(this.state.selectedCurrentElement.id + '_ReadingGroup')
+						.classList.remove('testHideShow');
+					document
+						.getElementById(this.state.selectedCurrentElement.id + '_ReadingGroup')
+						.classList.add('display');
+					console.log(value);
+				}
 			}
-			clearTimeout(timeOut);
 		}, 1000);
 	};
 
@@ -209,7 +244,7 @@ export default class SVGComponent extends Component {
 						detectAutoPan={false}
 						scaleFactorMin={1}
 						scaleFactorMax={10}
-						disableDoubleClickZoomWithToolAuto={true}
+						disableDoubleClickZoomWithToolAuto={false}
 						style={{ border: '1px solid black' }}
 						ref={(Viewer) => (this.Viewer = Viewer)}
 						/*		 onClick={(event) => console.log('click1', event.currentTarget.id)}
@@ -217,9 +252,7 @@ export default class SVGComponent extends Component {
 					onMouseUp={(event) => console.log('up', event.x, event.y)}
 					onMouseMove={(event) => console.log('move', event.x, event.y)}
 					onMouseDown={(event) => console.log('down', event.x, event.y)} */
-						onMouseUp={(event) => console.log('up', event.x, event.y)}
-						onMouseMove={(event) => console.log('move', event.x, event.y)}
-						onMouseDown={(event) => console.log('down', event.x, event.y)}
+				
 						onZoom={(value) => {
 							console.log(value);
 							this.elementHandler(value);
