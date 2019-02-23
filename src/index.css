@@ -15,7 +15,7 @@ code {
 
 
 .testHideShow{
-   display:none 
+   visibility: hidden
 }
 
 .display{

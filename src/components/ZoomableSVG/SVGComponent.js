@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { ReactSVGPanZoom, TOOL_NONE, fitSelection, zoomOnViewerCenter, fitToViewer } from 'react-svg-pan-zoom';
 import attachEventListeners from '../../attachListner';
 import Loader from 'react-loader-spinner';
+import getOffset from '../../utility/getElementOffset';
+
 
 export default class SVGComponent extends Component {
 	constructor(props, context) {
@@ -15,6 +17,9 @@ export default class SVGComponent extends Component {
 			loading: true,
 			loadingDivStyle: 'hidden',
 			enablePanZoom: false,
+			currentClickLeftOffset:'',
+			currentClickBottomOffset:'',
+			readingLoader:false,
 			elementConfig: [
 				{
 					id: 'infw_phase3-phase4_recycledWaterESR1_ReadingGroup',
@@ -140,12 +145,10 @@ export default class SVGComponent extends Component {
 		);
 		window.addEventListener('zoomByRectangle', this.zoomByReactangleListner);
 	}
-
+/* 
 	componentWillUpdate(nextProps,nextState){
 		
-			/* (value) => this.setState((prevState,props)=>({
-				previousZoomVal:prevState,value:props
-			})) */
+
 
 			console.log("nextState"+JSON.stringify(nextState))
 	setTimeout(()=>{
@@ -162,7 +165,7 @@ export default class SVGComponent extends Component {
 	},500)
 			
 		
-	}
+	} */
 
 	checkToolPan = (tool) => {
 		if (this.state.tool == 'pan') {
@@ -171,13 +174,13 @@ export default class SVGComponent extends Component {
 	};
 
 	zoomByReactangleListner = (e) => {
-		setTimeout(() => {
+	/* 	setTimeout(() => {
 			this.state.elementConfig.forEach((eleId) => {
 				if (eleId.zoomLevel < this.state.value.a && eleId.type == 'Device') {
 					document.getElementById(eleId.id + '_ReadingGroup').classList.add('display');
 				}
 			});
-		}, 1000);
+		}, 1000); */
 	};
 	listner = (e) => {
 		if (this.state.tool == 'zoom-in') {
@@ -186,20 +189,40 @@ export default class SVGComponent extends Component {
 			this.state.elementConfig.forEach((ids) => {
 				if (e.currentTarget.id == ids.id) {
 					if(this.state.selectedCurrentElement&&this.state.selectedCurrentElement.id==e.currentTarget.id){
-							//ids.isVisible = false
+					/* 		
 							this.props.history.push('/deviceDetails', {
 								deviceElementId: e.currentTarget.id
-							});
+							}); */
 					}else if(!ids.isVisible){
 						ids.isVisible=true
-						if (this.state.value.a <= ids.zoomLevel ) {
-					
-							this.Viewer.zoom(e.clientX - 50, e.clientY - 20, ids.zoomLevel);
-							
+						let zoomLvl = this.state.selectedCurrentElement?this.state.selectedCurrentElement.zoomLevel - ids.zoomLevel:ids.zoomLevel
+						if (this.state.value.a <= ids.zoomLevel ) {					
+							this.Viewer.zoom(e.clientX - 50, e.clientY + 20, zoomLvl);							
 						} 
-						document.getElementById(ids.id+'_ReadingGroup').classList.add('display')
-						
+
+						var currentClickElement = document.getElementById(ids.id+'_ReadingGroup')
+						var getleftoffset = getOffset(currentClickElement).left + 5
+						var getbuttomoffset = getOffset(currentClickElement).bottom -15
+					
+
+						console.log("&&&&"+getleftoffset)
+						this.setState({currentClickLeftOffset:getleftoffset,currentClickBottomOffset:getbuttomoffset,readingLoader:true})
+					
+
+	
+		
+						setTimeout(()=>{
+						this.setState({readingLoader:false})
+				
+						},1000)
+						setTimeout(()=>{
+							console.log("Show Reading Group")
+							document.getElementById(ids.id+'_ReadingGroup').classList.add('display')
+							document.getElementById(ids.id+'_ReadingGroup').classList.remove('testHideShow')
+
+						},4000)
 					}
+				
 				/* 	if (this.state.value.a <= ids.zoomLevel ) {
 					
 					
@@ -251,9 +274,13 @@ export default class SVGComponent extends Component {
 		console.log('tools', this.state.tool);
 		return (
 			<div>
+				{this.state.readingLoader?
+				<div style={{top:this.state.currentClickBottomOffset,left:this.state.currentClickLeftOffset, position:'absolute',zIndex:999999}}>
+				<Loader type="Puff" color="#fff" height="20" width="20" />
+				</div>:null}
 				{this.state.loading ? (
 					<div style={{ zIndex: 9999000, position: 'absolute', left: '43%', top: '35%' }}>
-						<Loader type="Puff" color="#00BFFF" height="100" width="100" />{' '}
+						<Loader type="Puff" color="#00BFFF" height="100" width="100" />
 					</div>
 				) : null}
 				<div style={{ visibility: this.state.loadingDivStyle }}>
@@ -285,8 +312,8 @@ export default class SVGComponent extends Component {
 							</foreignObject>
 						</svg>
 					</ReactSVGPanZoom>
-					{/*           <object data="-test-New_Digram_7 feb_ef.svgz" id="getSVG" type="image/svg+xml" />
- */}{' '}
+				          {/* <object data="-test-New_Digram_7feb_ef.1.svgz" id="getSVG" type="image/svg+xml" />
+  */}
 				</div>
 			</div>
 		);
