@@ -1,0 +1,3861 @@
+[
+	{
+		"id": "infw_phase1-phase2_recycledWaterESR",
+		"zoomLevel": 3.3,
+		"systemType": "WTP",
+		"type": "Device"
+	},
+	{
+		"id": "infw_phase1-phase2_recycledWaterESR_ReadingGroup",
+		"zoomLevel": 0,
+		"systemType": "WTP",
+		"type": "ReadingGroup"
+	},
+	{
+		"id": "infw_phase1-phase2_recycledWaterESR_status",
+		"zoomLevel": 0,
+		"systemType": "WTP",
+		"type": "Status"
+	},
+	{
+		"id": "infw_phase1-phase2_recycledWaterESR_in_valve",
+		"zoomLevel": 0,
+		"systemType": "WTP",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_phase1-phase2_recycledWaterESR_out_valve",
+		"zoomLevel": 0,
+		"systemType": "WTP",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_phase3-phase4_recycledWaterESR",
+		"zoomLevel": 3.3,
+		"systemType": "WTP",
+		"type": "Device"
+	},
+	{
+		"id": "infw_phase3-phase4_recycledWaterESR_ReadingGroup",
+		"zoomLevel": 0,
+		"systemType": "WTP",
+		"type": "ReadingGroup"
+	},
+	{
+		"id": "infw_phase3-phase4_recycledWaterESR_status",
+		"zoomLevel": 0,
+		"systemType": "WTP",
+		"type": "Status"
+	},
+	{
+		"id": "infw_phase3-phase4_recycledWaterESR_in_valve",
+		"zoomLevel": 0,
+		"systemType": "WTP",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_phase3-phase4_recycledWaterESR_out_valve",
+		"zoomLevel": 0,
+		"systemType": "WTP",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_phase1_clarifier1",
+		"zoomLevel": 2.3,
+		"systemType": "WTP",
+		"type": "Device"
+	},
+	{
+		"id": "infw_phase1_clarifier1_ReadingGroup",
+		"zoomLevel": 0,
+		"systemType": "WTP",
+		"type": "ReadingGroup"
+	},
+	{
+		"id": "infw_phase1_clarifier1_status",
+		"zoomLevel": 0,
+		"systemType": "WTP",
+		"type": "Status"
+	},
+	{
+		"id": "infw_phase1_clarifier1_turbidity_text",
+		"zoomLevel": 0,
+		"systemType": "WTP",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_phase1_clarifier1_phvalue_text",
+		"zoomLevel": 0,
+		"systemType": "WTP",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_phase1_clarifier1_backwashlevel_text",
+		"zoomLevel": 0,
+		"systemType": "WTP",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_phase1_clarifier2",
+		"zoomLevel": 2.3,
+		"systemType": "WTP",
+		"type": "Device"
+	},
+	{
+		"id": "infw_phase1_clarifier2_ReadingGroup",
+		"zoomLevel": 0,
+		"systemType": "WTP",
+		"type": "ReadingGroup"
+	},
+	{
+		"id": "infw_phase1_clarifier2_status",
+		"zoomLevel": 0,
+		"systemType": "WTP",
+		"type": "Status"
+	},
+	{
+		"id": "infw_phase1_clarifier2_turbidity_text",
+		"zoomLevel": 0,
+		"systemType": "WTP",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_phase1_clarifier2_phvalue_text",
+		"zoomLevel": 0,
+		"systemType": "WTP",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_phase1_clarifier2_backwashlevel_text",
+		"zoomLevel": 0,
+		"systemType": "WTP",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_phase2_clarifier1",
+		"zoomLevel": 2.3,
+		"systemType": "WTP",
+		"type": "Device"
+	},
+	{
+		"id": "infw_phase2_clarifier1_ReadingGroup",
+		"zoomLevel": 0,
+		"systemType": "WTP",
+		"type": "ReadingGroup"
+	},
+	{
+		"id": "infw_phase2_clarifier1_status",
+		"zoomLevel": 0,
+		"systemType": "WTP",
+		"type": "Status"
+	},
+	{
+		"id": "infw_phase2_clarifier1_turbidity_text",
+		"zoomLevel": 0,
+		"systemType": "WTP",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_phase2_clarifier1_phvalue_text",
+		"zoomLevel": 0,
+		"systemType": "WTP",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_phase2_clarifier1_backwashlevel_text",
+		"zoomLevel": 0,
+		"systemType": "WTP",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_phase2_clarifier2",
+		"zoomLevel": 2.3,
+		"systemType": "WTP",
+		"type": "Device"
+	},
+	{
+		"id": "infw_phase2_clarifier2_ReadingGroup",
+		"zoomLevel": 0,
+		"systemType": "WTP",
+		"type": "ReadingGroup"
+	},
+	{
+		"id": "infw_phase2_clarifier2_status",
+		"zoomLevel": 0,
+		"systemType": "WTP",
+		"type": "Status"
+	},
+	{
+		"id": "infw_phase2_clarifier2_turbidity_text",
+		"zoomLevel": 0,
+		"systemType": "WTP",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_phase2_clarifier2_phvalue_text",
+		"zoomLevel": 0,
+		"systemType": "WTP",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_phase2_clarifier2_backwashlevel_text",
+		"zoomLevel": 0,
+		"systemType": "WTP",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_phase3_clarifier1",
+		"zoomLevel": 2.3,
+		"systemType": "WTP",
+		"type": "Device"
+	},
+	{
+		"id": "infw_phase3_clarifier1_ReadingGroup",
+		"zoomLevel": 0,
+		"systemType": "WTP",
+		"type": "ReadingGroup"
+	},
+	{
+		"id": "infw_phase3_clarifier1_status",
+		"zoomLevel": 0,
+		"systemType": "WTP",
+		"type": "Status"
+	},
+	{
+		"id": "infw_phase3_clarifier1_turbidity_text",
+		"zoomLevel": 0,
+		"systemType": "WTP",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_phase3_clarifier1_phvalue_text",
+		"zoomLevel": 0,
+		"systemType": "WTP",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_phase3_clarifier1_backwashlevel_text",
+		"zoomLevel": 0,
+		"systemType": "WTP",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_phase4_clarifier1",
+		"zoomLevel": 2.3,
+		"systemType": "WTP",
+		"type": "Device"
+	},
+	{
+		"id": "infw_phase4_clarifier1_ReadingGroup",
+		"zoomLevel": 0,
+		"systemType": "WTP",
+		"type": "ReadingGroup"
+	},
+	{
+		"id": "infw_phase4_clarifier1_status",
+		"zoomLevel": 0,
+		"systemType": "WTP",
+		"type": "Status"
+	},
+	{
+		"id": "infw_phase4_clarifier1_turbidity_text",
+		"zoomLevel": 0,
+		"systemType": "WTP",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_phase4_clarifier1_phvalue_text",
+		"zoomLevel": 0,
+		"systemType": "WTP",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_phase4_clarifier1_backwashlevel_text",
+		"zoomLevel": 0,
+		"systemType": "WTP",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_phase1_sump1",
+		"zoomLevel": 3.3,
+		"systemType": "WTP",
+		"type": "Device"
+	},
+	{
+		"id": "infw_phase1_sump1_ReadingGroup",
+		"zoomLevel": 0,
+		"systemType": "WTP",
+		"type": "ReadingGroup"
+	},
+	{
+		"id": "infw_phase1_sump1_status",
+		"zoomLevel": 0,
+		"systemType": "WTP",
+		"type": "Status"
+	},
+	{
+		"id": "infw_phase1_sump1_turbidity_text",
+		"zoomLevel": 0,
+		"systemType": "WTP",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_phase1_sump1_phvalue_text",
+		"zoomLevel": 0,
+		"systemType": "WTP",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_phase1_sump1_level_text",
+		"zoomLevel": 0,
+		"systemType": "WTP",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_phase1_sump1_residualchlorine_text",
+		"zoomLevel": 0,
+		"systemType": "WTP",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_phase2_sump1",
+		"zoomLevel": 3.3,
+		"systemType": "WTP",
+		"type": "Device"
+	},
+	{
+		"id": "infw_phase2_sump1_ReadingGroup",
+		"zoomLevel": 0,
+		"systemType": "WTP",
+		"type": "ReadingGroup"
+	},
+	{
+		"id": "infw_phase2_sump1_status",
+		"zoomLevel": 0,
+		"systemType": "WTP",
+		"type": "Status"
+	},
+	{
+		"id": "infw_phase2_sump1_turbidity_text",
+		"zoomLevel": 0,
+		"systemType": "WTP",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_phase2_sump1_phvalue_text",
+		"zoomLevel": 0,
+		"systemType": "WTP",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_phase2_sump1_level_text",
+		"zoomLevel": 0,
+		"systemType": "WTP",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_phase2_sump1_residualchlorine_text",
+		"zoomLevel": 0,
+		"systemType": "WTP",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_phase3-phase4_sump1",
+		"zoomLevel": 3.3,
+		"systemType": "WTP",
+		"type": "Device"
+	},
+	{
+		"id": "infw_phase3-phase4_sump1_ReadingGroup",
+		"zoomLevel": 0,
+		"systemType": "WTP",
+		"type": "ReadingGroup"
+	},
+	{
+		"id": "infw_phase3-phase4_sump1_status",
+		"zoomLevel": 0,
+		"systemType": "WTP",
+		"type": "Status"
+	},
+	{
+		"id": "infw_phase3-phase4_sump1_turbidity_text",
+		"zoomLevel": 0,
+		"systemType": "WTP",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_phase3-phase4_sump1_phvalue_text",
+		"zoomLevel": 0,
+		"systemType": "WTP",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_phase3-phase4_sump1_level_text",
+		"zoomLevel": 0,
+		"systemType": "WTP",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_phase3-phase4_sump1_residualchlorine_text",
+		"zoomLevel": 0,
+		"systemType": "WTP",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_bhosari_esr1",
+		"zoomLevel": 8.3,
+		"systemType": "Distribution",
+		"type": "Device"
+	},
+	{
+		"id": "infw_bhosari_esr1_ReadingGroup",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingGroup"
+	},
+	{
+		"id": "infw_bhosari_esr1_status",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "Status"
+	},
+	{
+		"id": "infw_bhosari_esr1_level_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_bhosari_esr1_dailytotalisedflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_bhosari_esr1_currentflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_bhosari_esr1_flowrate_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_bhosari_esr1_pressure_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_bhosari_gaonthan_esr1",
+		"zoomLevel": 8.3,
+		"systemType": "Distribution",
+		"type": "Device"
+	},
+	{
+		"id": "infw_bhosari_gaonthan_esr1_ReadingGroup",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingGroup"
+	},
+	{
+		"id": "infw_bhosari_gaonthan_esr1_status",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "Status"
+	},
+	{
+		"id": "infw_bhosari_gaonthan_esr1_level_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_bhosari_gaonthan_esr1_dailytotalisedflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_bhosari_gaonthan_esr1_currentflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_bhosari_gaonthan_esr1_flowrate_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_bhosari_gaonthan_esr1_pressure_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_tukaram_nagar_esr1",
+		"zoomLevel": 8.3,
+		"systemType": "Distribution",
+		"type": "Device"
+	},
+	{
+		"id": "infw_tukaram_nagar_esr1_ReadingGroup",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingGroup"
+	},
+	{
+		"id": "infw_tukaram_nagar_esr1_status",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "Status"
+	},
+	{
+		"id": "infw_tukaram_nagar_esr1_level_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_tukaram_nagar_esr1_dailytotalisedflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_tukaram_nagar_esr1_currentflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_tukaram_nagar_esr1_flowrate_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_tukaram_nagar_esr1_pressure_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_dighi_esr1",
+		"zoomLevel": 8.3,
+		"systemType": "Distribution",
+		"type": "Device"
+	},
+	{
+		"id": "infw_dighi_esr1_ReadingGroup",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingGroup"
+	},
+	{
+		"id": "infw_dighi_esr1_status",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "Status"
+	},
+	{
+		"id": "infw_dighi_esr1_level_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_dighi_esr1_dailytotalisedflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_dighi_esr1_currentflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_dighi_esr1_flowrate_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_dighi_esr1_pressure_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_sec6_esr1",
+		"zoomLevel": 8.3,
+		"systemType": "Distribution",
+		"type": "Device"
+	},
+	{
+		"id": "infw_sec6_esr1_ReadingGroup",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingGroup"
+	},
+	{
+		"id": "infw_sec6_esr1_status",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "Status"
+	},
+	{
+		"id": "infw_sec6_esr1_level_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_sec6_esr1_dailytotalisedflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_sec6_esr1_currentflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_sec6_esr1_flowrate_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_sec6_esr1_pressure_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_sec6_esr2",
+		"zoomLevel": 8.3,
+		"systemType": "Distribution",
+		"type": "Device"
+	},
+	{
+		"id": "infw_sec6_esr2_ReadingGroup",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingGroup"
+	},
+	{
+		"id": "infw_sec6_esr2_status",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "Status"
+	},
+	{
+		"id": "infw_sec6_esr2_level_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_sec6_esr2_dailytotalisedflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_sec6_esr2_currentflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_sec6_esr2_flowrate_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_sec6_esr2_pressure_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_sec6_esr3",
+		"zoomLevel": 8.3,
+		"systemType": "Distribution",
+		"type": "Device"
+	},
+	{
+		"id": "infw_sec6_esr3_ReadingGroup",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingGroup"
+	},
+	{
+		"id": "infw_sec6_esr3_status",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "Status"
+	},
+	{
+		"id": "infw_sec6_esr3_level_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_sec6_esr3_dailytotalisedflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_sec6_esr3_currentflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_sec6_esr3_flowrate_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_sec6_esr3_pressure_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_wadmukhwadi_esr1",
+		"zoomLevel": 8.3,
+		"systemType": "Distribution",
+		"type": "Device"
+	},
+	{
+		"id": "infw_wadmukhwadi_esr1_ReadingGroup",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingGroup"
+	},
+	{
+		"id": "infw_wadmukhwadi_esr1_status",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "Status"
+	},
+	{
+		"id": "infw_wadmukhwadi_esr1_level_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_wadmukhwadi_esr1_dailytotalisedflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_wadmukhwadi_esr1_currentflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_wadmukhwadi_esr1_flowrate_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_wadmukhwadi_esr1_pressure_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_boradewadi_esr1",
+		"zoomLevel": 8.3,
+		"systemType": "Distribution",
+		"type": "Device"
+	},
+	{
+		"id": "infw_boradewadi_esr1_ReadingGroup",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingGroup"
+	},
+	{
+		"id": "infw_boradewadi_esr1_status",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "Status"
+	},
+	{
+		"id": "infw_boradewadi_esr1_level_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_boradewadi_esr1_dailytotalisedflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_boradewadi_esr1_currentflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_boradewadi_esr1_flowrate_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_boradewadi_esr1_pressure_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_sec96_esr1",
+		"zoomLevel": 8.3,
+		"systemType": "Distribution",
+		"type": "Device"
+	},
+	{
+		"id": "infw_sec96_esr1_ReadingGroup",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingGroup"
+	},
+	{
+		"id": "infw_sec96_esr1_status",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "Status"
+	},
+	{
+		"id": "infw_sec96_esr1_level_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_sec96_esr1_dailytotalisedflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_sec96_esr1_currentflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_sec96_esr1_flowrate_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_sec96_esr1_pressure_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_sec96_esr2",
+		"zoomLevel": 8.3,
+		"systemType": "Distribution",
+		"type": "Device"
+	},
+	{
+		"id": "infw_sec96_esr2_ReadingGroup",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingGroup"
+	},
+	{
+		"id": "infw_sec96_esr2_status",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "Status"
+	},
+	{
+		"id": "infw_sec96_esr2_level_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_sec96_esr2_dailytotalisedflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_sec96_esr2_currentflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_sec96_esr2_flowrate_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_sec96_esr2_pressure_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_sec96_esr3",
+		"zoomLevel": 8.3,
+		"systemType": "Distribution",
+		"type": "Device"
+	},
+	{
+		"id": "infw_sec96_esr3_ReadingGroup",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingGroup"
+	},
+	{
+		"id": "infw_sec96_esr3_status",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "Status"
+	},
+	{
+		"id": "infw_sec96_esr3_level_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_sec96_esr3_dailytotalisedflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_sec96_esr3_currentflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_sec96_esr3_flowrate_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_sec96_esr3_pressure_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_sec96_esr3",
+		"zoomLevel": 8.3,
+		"systemType": "Distribution",
+		"type": "Device"
+	},
+	{
+		"id": "infw_sec96_esr3_ReadingGroup",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingGroup"
+	},
+	{
+		"id": "infw_sec96_esr3_status",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "Status"
+	},
+	{
+		"id": "infw_sec96_esr3_level_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_sec96_esr3_dailytotalisedflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_sec96_esr3_currentflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_sec96_esr3_flowrate_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_sec96_esr3_pressure_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_e1__esr1",
+		"zoomLevel": 8.3,
+		"systemType": "Distribution",
+		"type": "Device"
+	},
+	{
+		"id": "infw_e1__esr1_ReadingGroup",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingGroup"
+	},
+	{
+		"id": "infw_e1__esr1_status",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "Status"
+	},
+	{
+		"id": "infw_e1__esr1_level_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_e1__esr1_dailytotalisedflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_e1__esr1_currentflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_e1__esr1_flowrate_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_e1__esr1_pressure_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_e1__esr2",
+		"zoomLevel": 8.3,
+		"systemType": "Distribution",
+		"type": "Device"
+	},
+	{
+		"id": "infw_e1__esr2_ReadingGroup",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingGroup"
+	},
+	{
+		"id": "infw_e1__esr2_status",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "Status"
+	},
+	{
+		"id": "infw_e1__esr2_level_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_e1__esr2_dailytotalisedflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_e1__esr2_currentflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_e1__esr2_flowrate_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_e1__esr2_pressure_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_e1__esr3",
+		"zoomLevel": 8.3,
+		"systemType": "Distribution",
+		"type": "Device"
+	},
+	{
+		"id": "infw_e1__esr3_ReadingGroup",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingGroup"
+	},
+	{
+		"id": "infw_e1__esr3_status",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "Status"
+	},
+	{
+		"id": "infw_e1__esr3_level_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_e1__esr3_dailytotalisedflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_e1__esr3_currentflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_e1__esr3_flowrate_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_e1__esr3_pressure_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_thergaon_esr1",
+		"zoomLevel": 8.3,
+		"systemType": "Distribution",
+		"type": "Device"
+	},
+	{
+		"id": "infw_thergaon_esr1_ReadingGroup",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingGroup"
+	},
+	{
+		"id": "infw_thergaon_esr1_status",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "Status"
+	},
+	{
+		"id": "infw_thergaon_esr1_level_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_thergaon_esr1_dailytotalisedflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_thergaon_esr1_currentflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_thergaon_esr1_flowrate_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_thergaon_esr1_pressure_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_thergaon_esr2",
+		"zoomLevel": 8.3,
+		"systemType": "Distribution",
+		"type": "Device"
+	},
+	{
+		"id": "infw_thergaon_esr2_ReadingGroup",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingGroup"
+	},
+	{
+		"id": "infw_thergaon_esr2_status",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "Status"
+	},
+	{
+		"id": "infw_thergaon_esr2_level_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_thergaon_esr2_dailytotalisedflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_thergaon_esr2_currentflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_thergaon_esr2_flowrate_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_thergaon_esr2_pressure_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_thergaon_esr3",
+		"zoomLevel": 8.3,
+		"systemType": "Distribution",
+		"type": "Device"
+	},
+	{
+		"id": "infw_thergaon_esr3_ReadingGroup",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingGroup"
+	},
+	{
+		"id": "infw_thergaon_esr3_status",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "Status"
+	},
+	{
+		"id": "infw_thergaon_esr3_level_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_thergaon_esr3_dailytotalisedflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_thergaon_esr3_currentflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_thergaon_esr3_flowrate_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_thergaon_esr3_pressure_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_shreenagar_esr1",
+		"zoomLevel": 8.3,
+		"systemType": "Distribution",
+		"type": "Device"
+	},
+	{
+		"id": "infw_shreenagar_esr1_ReadingGroup",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingGroup"
+	},
+	{
+		"id": "infw_shreenagar_esr1_status",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "Status"
+	},
+	{
+		"id": "infw_shreenagar_esr1_level_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_shreenagar_esr1_dailytotalisedflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_shreenagar_esr1_currentflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_shreenagar_esr1_flowrate_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_shreenagar_esr1_pressure_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_lakshmannagar_esr1",
+		"zoomLevel": 8.3,
+		"systemType": "Distribution",
+		"type": "Device"
+	},
+	{
+		"id": "infw_lakshmannagar_esr1_ReadingGroup",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingGroup"
+	},
+	{
+		"id": "infw_lakshmannagar_esr1_status",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "Status"
+	},
+	{
+		"id": "infw_lakshmannagar_esr1_level_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_lakshmannagar_esr1_dailytotalisedflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_lakshmannagar_esr1_currentflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_lakshmannagar_esr1_flowrate_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_lakshmannagar_esr1_pressure_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_lakshmannagar_esr2",
+		"zoomLevel": 8.3,
+		"systemType": "Distribution",
+		"type": "Device"
+	},
+	{
+		"id": "infw_lakshmannagar_esr2_ReadingGroup",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingGroup"
+	},
+	{
+		"id": "infw_lakshmannagar_esr2_status",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "Status"
+	},
+	{
+		"id": "infw_lakshmannagar_esr2_level_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_lakshmannagar_esr2_dailytotalisedflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_lakshmannagar_esr2_currentflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_lakshmannagar_esr2_flowrate_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_lakshmannagar_esr2_pressure_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_wakadkalakhadak_esr1",
+		"zoomLevel": 8.3,
+		"systemType": "Distribution",
+		"type": "Device"
+	},
+	{
+		"id": "infw_wakadkalakhadak_esr1_ReadingGroup",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingGroup"
+	},
+	{
+		"id": "infw_wakadkalakhadak_esr1_status",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "Status"
+	},
+	{
+		"id": "infw_wakadkalakhadak_esr1_level_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_wakadkalakhadak_esr1_dailytotalisedflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_wakadkalakhadak_esr1_currentflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_wakadkalakhadak_esr1_flowrate_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_wakadkalakhadak_esr1_pressure_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_punavale_esr1",
+		"zoomLevel": 8.3,
+		"systemType": "Distribution",
+		"type": "Device"
+	},
+	{
+		"id": "infw_punavale_esr1_ReadingGroup",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingGroup"
+	},
+	{
+		"id": "infw_punavale_esr1_status",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "Status"
+	},
+	{
+		"id": "infw_punavale_esr1_level_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_punavale_esr1_dailytotalisedflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_punavale_esr1_currentflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_punavale_esr1_flowrate_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_punavale_esr1_pressure_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_sec_29_esr1",
+		"zoomLevel": 8.3,
+		"systemType": "Distribution",
+		"type": "Device"
+	},
+	{
+		"id": "infw_sec_29_esr1_ReadingGroup",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingGroup"
+	},
+	{
+		"id": "infw_sec_29_esr1_status",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "Status"
+	},
+	{
+		"id": "infw_sec_29_esr1_level_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_sec_29_esr1_dailytotalisedflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_sec_29_esr1_currentflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_sec_29_esr1_flowrate_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_sec_29_esr1_pressure_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_sec_29_esr2",
+		"zoomLevel": 8.3,
+		"systemType": "Distribution",
+		"type": "Device"
+	},
+	{
+		"id": "infw_sec_29_esr2_ReadingGroup",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingGroup"
+	},
+	{
+		"id": "infw_sec_29_esr2_status",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "Status"
+	},
+	{
+		"id": "infw_sec_29_esr2_level_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_sec_29_esr2_dailytotalisedflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_sec_29_esr2_currentflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_sec_29_esr2_flowrate_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_sec_29_esr2_pressure_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_bijli_nagar_esr1",
+		"zoomLevel": 8.3,
+		"systemType": "Distribution",
+		"type": "Device"
+	},
+	{
+		"id": "infw_bijli_nagar_esr1_ReadingGroup",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingGroup"
+	},
+	{
+		"id": "infw_bijli_nagar_esr1_status",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "Status"
+	},
+	{
+		"id": "infw_bijli_nagar_esr1_level_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_bijli_nagar_esr1_dailytotalisedflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_bijli_nagar_esr1_currentflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_bijli_nagar_esr1_flowrate_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_bijli_nagar_esr1_pressure_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_bijli_nagar_esr2",
+		"zoomLevel": 8.3,
+		"systemType": "Distribution",
+		"type": "Device"
+	},
+	{
+		"id": "infw_bijli_nagar_esr2_ReadingGroup",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingGroup"
+	},
+	{
+		"id": "infw_bijli_nagar_esr2_status",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "Status"
+	},
+	{
+		"id": "infw_bijli_nagar_esr2_level_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_bijli_nagar_esr2_dailytotalisedflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_bijli_nagar_esr2_currentflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_bijli_nagar_esr2_flowrate_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_bijli_nagar_esr2_pressure_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_bijli_nagar_esr3",
+		"zoomLevel": 8.3,
+		"systemType": "Distribution",
+		"type": "Device"
+	},
+	{
+		"id": "infw_bijli_nagar_esr3_ReadingGroup",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingGroup"
+	},
+	{
+		"id": "infw_bijli_nagar_esr3_status",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "Status"
+	},
+	{
+		"id": "infw_bijli_nagar_esr3_level_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_bijli_nagar_esr3_dailytotalisedflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_bijli_nagar_esr3_currentflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_bijli_nagar_esr3_flowrate_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_bijli_nagar_esr3_pressure_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_midc_esr1",
+		"zoomLevel": 8.3,
+		"systemType": "Distribution",
+		"type": "Device"
+	},
+	{
+		"id": "infw_midc_esr1_ReadingGroup",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingGroup"
+	},
+	{
+		"id": "infw_midc_esr1_status",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "Status"
+	},
+	{
+		"id": "infw_midc_esr1_level_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_midc_esr1_dailytotalisedflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_midc_esr1_currentflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_midc_esr1_flowrate_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_midc_esr1_pressure_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_pimpri_camp_esr1",
+		"zoomLevel": 8.3,
+		"systemType": "Distribution",
+		"type": "Device"
+	},
+	{
+		"id": "infw_pimpri_camp_esr1_ReadingGroup",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingGroup"
+	},
+	{
+		"id": "infw_pimpri_camp_esr1_status",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "Status"
+	},
+	{
+		"id": "infw_pimpri_camp_esr1_level_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_pimpri_camp_esr1_dailytotalisedflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_pimpri_camp_esr1_currentflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_pimpri_camp_esr1_flowrate_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_pimpri_camp_esr1_pressure_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_pimpri_camp_esr2",
+		"zoomLevel": 8.3,
+		"systemType": "Distribution",
+		"type": "Device"
+	},
+	{
+		"id": "infw_pimpri_camp_esr2_ReadingGroup",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingGroup"
+	},
+	{
+		"id": "infw_pimpri_camp_esr2_status",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "Status"
+	},
+	{
+		"id": "infw_pimpri_camp_esr2_level_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_pimpri_camp_esr2_dailytotalisedflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_pimpri_camp_esr2_currentflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_pimpri_camp_esr2_flowrate_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_pimpri_camp_esr2_pressure_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_esr_kasarwadi",
+		"zoomLevel": 8.3,
+		"systemType": "Distribution",
+		"type": "Device"
+	},
+	{
+		"id": "infw_esr_kasarwadi_ReadingGroup",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingGroup"
+	},
+	{
+		"id": "infw_esr_kasarwadi_status",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "Status"
+	},
+	{
+		"id": "infw_esr_kasarwadi_level_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_esr_kasarwadi_dailytotalisedflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_esr_kasarwadi_currentflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_esr_kasarwadi_flowrate_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_esr_kasarwadi_pressure_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_pimpale_nilakh_esr1",
+		"zoomLevel": 8.3,
+		"systemType": "Distribution",
+		"type": "Device"
+	},
+	{
+		"id": "infw_pimpale_nilakh_esr1_ReadingGroup",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingGroup"
+	},
+	{
+		"id": "infw_pimpale_nilakh_esr1_status",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "Status"
+	},
+	{
+		"id": "infw_pimpale_nilakh_esr1_level_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_pimpale_nilakh_esr1_dailytotalisedflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_pimpale_nilakh_esr1_currentflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_pimpale_nilakh_esr1_flowrate_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_pimpale_nilakh_esr1_pressure_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_pimple_gurav_esr1",
+		"zoomLevel": 8.3,
+		"systemType": "Distribution",
+		"type": "Device"
+	},
+	{
+		"id": "infw_pimple_gurav_esr1_ReadingGroup",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingGroup"
+	},
+	{
+		"id": "infw_pimple_gurav_esr1_status",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "Status"
+	},
+	{
+		"id": "infw_pimple_gurav_esr1_level_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_pimple_gurav_esr1_dailytotalisedflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_pimple_gurav_esr1_currentflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_pimple_gurav_esr1_flowrate_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_pimple_gurav_esr1_pressure_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_pimple_gurav_esr2",
+		"zoomLevel": 8.3,
+		"systemType": "Distribution",
+		"type": "Device"
+	},
+	{
+		"id": "infw_pimple_gurav_esr2_ReadingGroup",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingGroup"
+	},
+	{
+		"id": "infw_pimple_gurav_esr2_status",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "Status"
+	},
+	{
+		"id": "infw_pimple_gurav_esr2_level_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_pimple_gurav_esr2_dailytotalisedflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_pimple_gurav_esr2_currentflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_pimple_gurav_esr2_flowrate_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_pimple_gurav_esr2_pressure_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_pimple_gurav_esr3",
+		"zoomLevel": 8.3,
+		"systemType": "Distribution",
+		"type": "Device"
+	},
+	{
+		"id": "infw_pimple_gurav_esr3_ReadingGroup",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingGroup"
+	},
+	{
+		"id": "infw_pimple_gurav_esr3_status",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "Status"
+	},
+	{
+		"id": "infw_pimple_gurav_esr3_level_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_pimple_gurav_esr3_dailytotalisedflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_pimple_gurav_esr3_currentflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_pimple_gurav_esr3_flowrate_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_pimple_gurav_esr3_pressure_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_pimple_gurav_new_esr1",
+		"zoomLevel": 8.3,
+		"systemType": "Distribution",
+		"type": "Device"
+	},
+	{
+		"id": "infw_pimple_gurav_new_esr1_ReadingGroup",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingGroup"
+	},
+	{
+		"id": "infw_pimple_gurav_new_esr1_status",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "Status"
+	},
+	{
+		"id": "infw_pimple_gurav_new_esr1_level_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_pimple_gurav_new_esr1_dailytotalisedflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_pimple_gurav_new_esr1_currentflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_pimple_gurav_new_esr1_flowrate_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_pimple_gurav_new_esr1_pressure_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_dapodi_esr1",
+		"zoomLevel": 8.3,
+		"systemType": "Distribution",
+		"type": "Device"
+	},
+	{
+		"id": "infw_dapodi_esr1_ReadingGroup",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingGroup"
+	},
+	{
+		"id": "infw_dapodi_esr1_status",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "Status"
+	},
+	{
+		"id": "infw_dapodi_esr1_level_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_dapodi_esr1_dailytotalisedflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_dapodi_esr1_currentflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_dapodi_esr1_flowrate_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_dapodi_esr1_pressure_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_dapodi_esr2",
+		"zoomLevel": 8.3,
+		"systemType": "Distribution",
+		"type": "Device"
+	},
+	{
+		"id": "infw_dapodi_esr2_ReadingGroup",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingGroup"
+	},
+	{
+		"id": "infw_dapodi_esr2_status",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "Status"
+	},
+	{
+		"id": "infw_dapodi_esr2_level_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_dapodi_esr2_dailytotalisedflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_dapodi_esr2_currentflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_dapodi_esr2_flowrate_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_dapodi_esr2_pressure_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_nav_maharashtra_school_esr1",
+		"zoomLevel": 8.3,
+		"systemType": "Distribution",
+		"type": "Device"
+	},
+	{
+		"id": "infw_nav_maharashtra_school_esr1_ReadingGroup",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingGroup"
+	},
+	{
+		"id": "infw_nav_maharashtra_school_esr1_status",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "Status"
+	},
+	{
+		"id": "infw_nav_maharashtra_school_esr1_level_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_nav_maharashtra_school_esr1_dailytotalisedflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_nav_maharashtra_school_esr1_currentflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_nav_maharashtra_school_esr1_flowrate_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_nav_maharashtra_school_esr1_pressure_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_pimpale_saudagar_esr1",
+		"zoomLevel": 8.3,
+		"systemType": "Distribution",
+		"type": "Device"
+	},
+	{
+		"id": "infw_pimpale_saudagar_esr1_ReadingGroup",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingGroup"
+	},
+	{
+		"id": "infw_pimpale_saudagar_esr1_status",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "Status"
+	},
+	{
+		"id": "infw_pimpale_saudagar_esr1_level_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_pimpale_saudagar_esr1_dailytotalisedflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_pimpale_saudagar_esr1_currentflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_pimpale_saudagar_esr1_flowrate_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_pimpale_saudagar_esr1_pressure_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_pimpale_saudagar_esr2",
+		"zoomLevel": 8.3,
+		"systemType": "Distribution",
+		"type": "Device"
+	},
+	{
+		"id": "infw_pimpale_saudagar_esr2_ReadingGroup",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingGroup"
+	},
+	{
+		"id": "infw_pimpale_saudagar_esr2_status",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "Status"
+	},
+	{
+		"id": "infw_pimpale_saudagar_esr2_level_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_pimpale_saudagar_esr2_dailytotalisedflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_pimpale_saudagar_esr2_currentflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_pimpale_saudagar_esr2_flowrate_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_pimpale_saudagar_esr2_pressure_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_pwd_sec_84_esr1",
+		"zoomLevel": 8.3,
+		"systemType": "Distribution",
+		"type": "Device"
+	},
+	{
+		"id": "infw_pwd_sec_84_esr1_ReadingGroup",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingGroup"
+	},
+	{
+		"id": "infw_pwd_sec_84_esr1_status",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "Status"
+	},
+	{
+		"id": "infw_pwd_sec_84_esr1_level_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_pwd_sec_84_esr1_dailytotalisedflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_pwd_sec_84_esr1_currentflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_pwd_sec_84_esr1_flowrate_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_pwd_sec_84_esr1_pressure_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_new_sanghavi_esr1",
+		"zoomLevel": 8.3,
+		"systemType": "Distribution",
+		"type": "Device"
+	},
+	{
+		"id": "infw_new_sanghavi_esr1_ReadingGroup",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingGroup"
+	},
+	{
+		"id": "infw_new_sanghavi_esr1_status",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "Status"
+	},
+	{
+		"id": "infw_new_sanghavi_esr1_level_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_new_sanghavi_esr1_dailytotalisedflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_new_sanghavi_esr1_currentflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_new_sanghavi_esr1_flowrate_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_new_sanghavi_esr1_pressure_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_old_sanghavi_esr1",
+		"zoomLevel": 8.3,
+		"systemType": "Distribution",
+		"type": "Device"
+	},
+	{
+		"id": "infw_old_sanghavi_esr1_ReadingGroup",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingGroup"
+	},
+	{
+		"id": "infw_old_sanghavi_esr1_status",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "Status"
+	},
+	{
+		"id": "infw_old_sanghavi_esr1_level_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_old_sanghavi_esr1_dailytotalisedflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_old_sanghavi_esr1_currentflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_old_sanghavi_esr1_flowrate_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_old_sanghavi_esr1_pressure_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_pimple_college_esr1",
+		"zoomLevel": 8.3,
+		"systemType": "Distribution",
+		"type": "Device"
+	},
+	{
+		"id": "infw_pimple_college_esr1_ReadingGroup",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingGroup"
+	},
+	{
+		"id": "infw_pimple_college_esr1_status",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "Status"
+	},
+	{
+		"id": "infw_pimple_college_esr1_level_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_pimple_college_esr1_dailytotalisedflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_pimple_college_esr1_currentflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_pimple_college_esr1_flowrate_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_pimple_college_esr1_pressure_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_akurdi_esr1",
+		"zoomLevel": 8.3,
+		"systemType": "Distribution",
+		"type": "Device"
+	},
+	{
+		"id": "infw_akurdi_esr1_ReadingGroup",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingGroup"
+	},
+	{
+		"id": "infw_akurdi_esr1_status",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "Status"
+	},
+	{
+		"id": "infw_akurdi_esr1_level_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_akurdi_esr1_dailytotalisedflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_akurdi_esr1_currentflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_akurdi_esr1_flowrate_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_akurdi_esr1_pressure_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_akurdi_khandobamal_esr1",
+		"zoomLevel": 8.3,
+		"systemType": "Distribution",
+		"type": "Device"
+	},
+	{
+		"id": "infw_akurdi_khandobamal_esr1_ReadingGroup",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingGroup"
+	},
+	{
+		"id": "infw_akurdi_khandobamal_esr1_status",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "Status"
+	},
+	{
+		"id": "infw_akurdi_khandobamal_esr1_level_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_akurdi_khandobamal_esr1_dailytotalisedflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_akurdi_khandobamal_esr1_currentflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_akurdi_khandobamal_esr1_flowrate_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_akurdi_khandobamal_esr1_pressure_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_jadhavwadi_esr1",
+		"zoomLevel": 8.3,
+		"systemType": "Distribution",
+		"type": "Device"
+	},
+	{
+		"id": "infw_jadhavwadi_esr1_ReadingGroup",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingGroup"
+	},
+	{
+		"id": "infw_jadhavwadi_esr1_status",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "Status"
+	},
+	{
+		"id": "infw_jadhavwadi_esr1_level_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_jadhavwadi_esr1_dailytotalisedflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_jadhavwadi_esr1_currentflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_jadhavwadi_esr1_flowrate_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_jadhavwadi_esr1_pressure_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_chikali_esr1",
+		"zoomLevel": 8.3,
+		"systemType": "Distribution",
+		"type": "Device"
+	},
+	{
+		"id": "infw_chikali_esr1_ReadingGroup",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingGroup"
+	},
+	{
+		"id": "infw_chikali_esr1_status",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "Status"
+	},
+	{
+		"id": "infw_chikali_esr1_level_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_chikali_esr1_dailytotalisedflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_chikali_esr1_currentflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_chikali_esr1_flowrate_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_chikali_esr1_pressure_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_talwade_esr1",
+		"zoomLevel": 8.3,
+		"systemType": "Distribution",
+		"type": "Device"
+	},
+	{
+		"id": "infw_talwade_esr1_ReadingGroup",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingGroup"
+	},
+	{
+		"id": "infw_talwade_esr1_status",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "Status"
+	},
+	{
+		"id": "infw_talwade_esr1_level_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_talwade_esr1_dailytotalisedflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_talwade_esr1_currentflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_talwade_esr1_flowrate_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_talwade_esr1_pressure_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_triveni_nagar_esr1",
+		"zoomLevel": 8.3,
+		"systemType": "Distribution",
+		"type": "Device"
+	},
+	{
+		"id": "infw_triveni_nagar_esr1_ReadingGroup",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingGroup"
+	},
+	{
+		"id": "infw_triveni_nagar_esr1_status",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "Status"
+	},
+	{
+		"id": "infw_triveni_nagar_esr1_level_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_triveni_nagar_esr1_dailytotalisedflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_triveni_nagar_esr1_currentflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_triveni_nagar_esr1_flowrate_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_triveni_nagar_esr1_pressure_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_triveni_nagar_esr2",
+		"zoomLevel": 8.3,
+		"systemType": "Distribution",
+		"type": "Device"
+	},
+	{
+		"id": "infw_triveni_nagar_esr2_ReadingGroup",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingGroup"
+	},
+	{
+		"id": "infw_triveni_nagar_esr2_status",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "Status"
+	},
+	{
+		"id": "infw_triveni_nagar_esr2_level_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_triveni_nagar_esr2_dailytotalisedflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_triveni_nagar_esr2_currentflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_triveni_nagar_esr2_flowrate_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_triveni_nagar_esr2_pressure_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_krishna_nagar_esr1",
+		"zoomLevel": 8.3,
+		"systemType": "Distribution",
+		"type": "Device"
+	},
+	{
+		"id": "infw_krishna_nagar_esr1_ReadingGroup",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingGroup"
+	},
+	{
+		"id": "infw_krishna_nagar_esr1_status",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "Status"
+	},
+	{
+		"id": "infw_krishna_nagar_esr1_level_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_krishna_nagar_esr1_dailytotalisedflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_krishna_nagar_esr1_currentflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_krishna_nagar_esr1_flowrate_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_krishna_nagar_esr1_pressure_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_krishna_nagar_esr2",
+		"zoomLevel": 8.3,
+		"systemType": "Distribution",
+		"type": "Device"
+	},
+	{
+		"id": "infw_krishna_nagar_esr2_ReadingGroup",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingGroup"
+	},
+	{
+		"id": "infw_krishna_nagar_esr2_status",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "Status"
+	},
+	{
+		"id": "infw_krishna_nagar_esr2_level_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_krishna_nagar_esr2_dailytotalisedflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_krishna_nagar_esr2_currentflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_krishna_nagar_esr2_flowrate_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_krishna_nagar_esr2_pressure_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_krishna_nagar_esr3",
+		"zoomLevel": 8.3,
+		"systemType": "Distribution",
+		"type": "Device"
+	},
+	{
+		"id": "infw_krishna_nagar_esr3_ReadingGroup",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingGroup"
+	},
+	{
+		"id": "infw_krishna_nagar_esr3_status",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "Status"
+	},
+	{
+		"id": "infw_krishna_nagar_esr3_level_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_krishna_nagar_esr3_dailytotalisedflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_krishna_nagar_esr3_currentflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_krishna_nagar_esr3_flowrate_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_krishna_nagar_esr3_pressure_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_annasaheb_magar_stadium_esr1",
+		"zoomLevel": 8.3,
+		"systemType": "Distribution",
+		"type": "Device"
+	},
+	{
+		"id": "infw_annasaheb_magar_stadium_esr1_ReadingGroup",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingGroup"
+	},
+	{
+		"id": "infw_annasaheb_magar_stadium_esr1_status",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "Status"
+	},
+	{
+		"id": "infw_annasaheb_magar_stadium_esr1_level_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_annasaheb_magar_stadium_esr1_dailytotalisedflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_annasaheb_magar_stadium_esr1_currentflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_annasaheb_magar_stadium_esr1_flowrate_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_annasaheb_magar_stadium_esr1_pressure_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_ajmera_esr1",
+		"zoomLevel": 8.3,
+		"systemType": "Distribution",
+		"type": "Device"
+	},
+	{
+		"id": "infw_ajmera_esr1_ReadingGroup",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingGroup"
+	},
+	{
+		"id": "infw_ajmera_esr1_status",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "Status"
+	},
+	{
+		"id": "infw_ajmera_esr1_level_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_ajmera_esr1_dailytotalisedflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_ajmera_esr1_currentflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_ajmera_esr1_flowrate_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_ajmera_esr1_pressure_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_ajmera_esr2",
+		"zoomLevel": 8.3,
+		"systemType": "Distribution",
+		"type": "Device"
+	},
+	{
+		"id": "infw_ajmera_esr2_ReadingGroup",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingGroup"
+	},
+	{
+		"id": "infw_ajmera_esr2_status",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "Status"
+	},
+	{
+		"id": "infw_ajmera_esr2_level_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_ajmera_esr2_dailytotalisedflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_ajmera_esr2_currentflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_ajmera_esr2_flowrate_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_ajmera_esr2_pressure_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_nehru_nagar_esr1",
+		"zoomLevel": 8.3,
+		"systemType": "Distribution",
+		"type": "Device"
+	},
+	{
+		"id": "infw_nehru_nagar_esr1_ReadingGroup",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingGroup"
+	},
+	{
+		"id": "infw_nehru_nagar_esr1_status",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "Status"
+	},
+	{
+		"id": "infw_nehru_nagar_esr1_level_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_nehru_nagar_esr1_dailytotalisedflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_nehru_nagar_esr1_currentflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_nehru_nagar_esr1_flowrate_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_nehru_nagar_esr1_pressure_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_nehru_nagar_esr2",
+		"zoomLevel": 8.3,
+		"systemType": "Distribution",
+		"type": "Device"
+	},
+	{
+		"id": "infw_nehru_nagar_esr2_ReadingGroup",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingGroup"
+	},
+	{
+		"id": "infw_nehru_nagar_esr2_status",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "Status"
+	},
+	{
+		"id": "infw_nehru_nagar_esr2_level_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_nehru_nagar_esr2_dailytotalisedflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_nehru_nagar_esr2_currentflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_nehru_nagar_esr2_flowrate_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_nehru_nagar_esr2_pressure_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_vallabh_nagar_esr1",
+		"zoomLevel": 8.3,
+		"systemType": "Distribution",
+		"type": "Device"
+	},
+	{
+		"id": "infw_vallabh_nagar_esr1_ReadingGroup",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingGroup"
+	},
+	{
+		"id": "infw_vallabh_nagar_esr1_status",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "Status"
+	},
+	{
+		"id": "infw_vallabh_nagar_esr1_level_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_vallabh_nagar_esr1_dailytotalisedflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_vallabh_nagar_esr1_currentflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_vallabh_nagar_esr1_flowrate_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_vallabh_nagar_esr1_pressure_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_sector10_esr1",
+		"zoomLevel": 8.3,
+		"systemType": "Distribution",
+		"type": "Device"
+	},
+	{
+		"id": "infw_sector10_esr1_ReadingGroup",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingGroup"
+	},
+	{
+		"id": "infw_sector10_esr1_status",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "Status"
+	},
+	{
+		"id": "infw_sector10_esr1_level_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_sector10_esr1_dailytotalisedflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_sector10_esr1_currentflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_sector10_esr1_flowrate_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_sector10_esr1_pressure_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_sector_7_10_esr1",
+		"zoomLevel": 8.3,
+		"systemType": "Distribution",
+		"type": "Device"
+	},
+	{
+		"id": "infw_sector_7_10_esr1_ReadingGroup",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingGroup"
+	},
+	{
+		"id": "infw_sector_7_10_esr1_status",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "Status"
+	},
+	{
+		"id": "infw_sector_7_10_esr1_level_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_sector_7_10_esr1_dailytotalisedflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_sector_7_10_esr1_currentflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_sector_7_10_esr1_flowrate_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_sector_7_10_esr1_pressure_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_sector_7_10_esr2",
+		"zoomLevel": 8.3,
+		"systemType": "Distribution",
+		"type": "Device"
+	},
+	{
+		"id": "infw_sector_7_10_esr2_ReadingGroup",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingGroup"
+	},
+	{
+		"id": "infw_sector_7_10_esr2_status",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "Status"
+	},
+	{
+		"id": "infw_sector_7_10_esr2_level_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_sector_7_10_esr2_dailytotalisedflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_sector_7_10_esr2_currentflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_sector_7_10_esr2_flowrate_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_sector_7_10_esr2_pressure_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_ashram_school_esr1",
+		"zoomLevel": 8.3,
+		"systemType": "Distribution",
+		"type": "Device"
+	},
+	{
+		"id": "infw_ashram_school_esr1_ReadingGroup",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingGroup"
+	},
+	{
+		"id": "infw_ashram_school_esr1_status",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "Status"
+	},
+	{
+		"id": "infw_ashram_school_esr1_level_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_ashram_school_esr1_dailytotalisedflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_ashram_school_esr1_currentflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_ashram_school_esr1_flowrate_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_ashram_school_esr1_pressure_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_indrayani_nagar_esr1",
+		"zoomLevel": 8.3,
+		"systemType": "Distribution",
+		"type": "Device"
+	},
+	{
+		"id": "infw_indrayani_nagar_esr1_ReadingGroup",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingGroup"
+	},
+	{
+		"id": "infw_indrayani_nagar_esr1_status",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "Status"
+	},
+	{
+		"id": "infw_indrayani_nagar_esr1_level_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_indrayani_nagar_esr1_dailytotalisedflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_indrayani_nagar_esr1_currentflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_indrayani_nagar_esr1_flowrate_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_indrayani_nagar_esr1_pressure_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_indrayani_nagar_esr2",
+		"zoomLevel": 8.3,
+		"systemType": "Distribution",
+		"type": "Device"
+	},
+	{
+		"id": "infw_indrayani_nagar_esr2_ReadingGroup",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingGroup"
+	},
+	{
+		"id": "infw_indrayani_nagar_esr2_status",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "Status"
+	},
+	{
+		"id": "infw_indrayani_nagar_esr2_level_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_indrayani_nagar_esr2_dailytotalisedflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_indrayani_nagar_esr2_currentflow_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+	{
+		"id": "infw_indrayani_nagar_esr2_flowrate_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	},
+
+	{
+		"id": "infw_indrayani_nagar_esr2_pressure_text",
+		"zoomLevel": 0,
+		"systemType": "Distribution",
+		"type": "ReadingVal"
+	}
+]
